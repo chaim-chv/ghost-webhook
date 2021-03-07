@@ -1,0 +1,16 @@
+{
+  "name": "ghost-webhook-notifications",
+  "version": "1.0.0",
+  "description": "simple app to spread notifications on GMAIL, push & telegram from post published event in ghost CMS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "chv",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
